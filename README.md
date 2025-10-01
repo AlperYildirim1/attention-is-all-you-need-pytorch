@@ -27,6 +27,9 @@ Tied Embeddings & Surgical Initialization: Followed the correct practice and tie
 
 The model was trained for 40,000 steps with batches of approximately 20,000 tokens. This represents 40% of the training steps and roughly 40% of the token-based batch size used to train the original Transformer base model (100,000 steps with ~50,000 tokens per batch).
 You can expect it to get closer to original 27.8 bleu with 50k batch size and a better optimized scheduler with a lot smaller learning rate on final steps.
+!<img width="943" height="541" alt="image" src="https://github.com/user-attachments/assets/d4cdf39d-5bc1-48fb-9265-4fcdee73cddd" />
+
+
 Validation BLEU Score Curve
 
 The val results are for beam search with beams = 5
